@@ -325,7 +325,6 @@ img {
     
 }
 
-
 .team-member {
     text-align: center;
     background-color:var(--white-text-color);
@@ -354,8 +353,8 @@ img {
 }
 .team-link:hover,
 .team-link:focus {
-    color: #ffffff;
-    background-color: #2196F3;
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
 }
 
 .experts-item:nth-child(4n) {
@@ -368,16 +367,9 @@ img {
     text-transform: uppercase;
  }
  
-.constant-clients {    
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #AFB1B8;
+.constant-clients {  
     margin-right: 30px;
+       
 }
 .constant-clients:nth-child(6n){
     margin-right: 0;
@@ -387,13 +379,26 @@ img {
     fill: currentColor;
 }
 
-.constant-clients:hover {
+.constant-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    
+    color: #AFB1B8;
+}
+
+.constant-link:hover {
     color:var(--accent-color);
     border: 1px solid var(--accent-color);
 }
 
-.constant-clients .constant-link:focus {
+.constant-link:focus {    
     color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .section-clients {
@@ -452,6 +457,7 @@ img {
 .location .link:focus {
     color: var(--accent-color);
 }
+
 
 .location .link-contacts {
     color: rgba(255, 255, 255, 0.6) ;
