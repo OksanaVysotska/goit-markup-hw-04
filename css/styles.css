@@ -305,19 +305,16 @@ img {
     line-height: 1.16;
     margin-bottom: 50px;
 }
-
-
  .section.team {    
     background-color: var(--secondary-background-color);
     padding-top: 94px;
-    padding-bottom: 0;  
+    padding-bottom: 94px;    
 }
 
 .experts {
     display: flex;
     flex-wrap: wrap; 
-    padding-bottom: 94px; 
-}
+   }
 
 .experts-item {
     width: 270px;
