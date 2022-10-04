@@ -386,10 +386,14 @@ img {
 .constant-link .icon {
     fill: currentColor;
 }
-.constant-clients:hover,
-.constant-clients:focus {
+
+.constant-clients:hover {
     color:var(--accent-color);
     border: 1px solid var(--accent-color);
+}
+
+.constant-clients .constant-link:focus {
+    color: var(--accent-color);
 }
 
 .section-clients {
